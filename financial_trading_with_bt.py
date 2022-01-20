@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import bt
-%matplotlib inline
+%matplotlib inline # for jupyter notebook
 
 # download historical prices
 bt_data = bt.get('goog, amzn, tsla',
